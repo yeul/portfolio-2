@@ -1,0 +1,29 @@
+.company-logo {
+  height: 76px;
+  margin-top: 30px;
+  .logo {
+    width: fit-content;
+    margin-left: 55px;
+  }
+}
+
+.landing-left {
+  .landing-welcome-1,
+  .landing-welcome {
+    margin-left: 55px;
+  }
+  .landing-welcome-1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .landing-welcome {
+    height: 140px;
+    width: 88%;
+  }
+}
+
+.landing-right {
+  .building-website-img {
+    max-width: 90%;
+  }
+}

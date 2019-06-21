@@ -1,0 +1,10 @@
+@import "./colors.scss";
+@import "../base/typography";
+
+.about-us-wrapper {
+  background-color: $accent;
+  border-radius: 8px;
+  color: white;
+  font-family: "Aktifo-Book";
+  font-size: 20px;
+}

@@ -1,0 +1,16 @@
+//Button component styles
+
+@import "../themes/colors.scss";
+
+.button {
+  height: 60px;
+  width: 160px;
+  border-radius: 6px;
+  border-style: none;
+  color: $accent;
+  background-color: white;
+  margin-top: 40px;
+  &:focus {
+    outline: none;
+  }
+}

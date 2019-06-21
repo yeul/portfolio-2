@@ -1,0 +1,27 @@
+@import "./colors.scss";
+
+.logo,
+.landing-welcome-1,
+.landing-welcome {
+  color: $accent;
+}
+
+.logo {
+  font-family: "Aktifo-BlackOblique";
+  font-size: 40px;
+}
+
+.landing-left {
+  .landing-welcome-1,
+  .landing-welcome {
+    font-family: "Aktifo-Book";
+  }
+
+  .landing-welcome-1 {
+    font-size: 25px;
+  }
+
+  .landing-welcome {
+    font-size: 35px;
+  }
+}

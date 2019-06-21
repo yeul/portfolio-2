@@ -1,0 +1,25 @@
+//Dimensions of each parent container/rows based on Bootstrap's grid system.
+
+.landing-section {
+  height: 435px;
+  .row {
+    height: 100%;
+  }
+}
+
+.about-us-section {
+  height: 400px;
+  margin-top: 50px;
+  .row {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.news-section {
+  height: 1000px;
+}
+
+.footer {
+  height: 300px;
+}

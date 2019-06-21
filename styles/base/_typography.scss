@@ -1,0 +1,11 @@
+//Typography rules
+
+@font-face {
+  font-family: "Aktifo-BlackOblique";
+  src: url("/static/fonts/Aktifo-BlackOblique.woff") format("woff"), url("/static/fonts/Aktifo-BlackOblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Aktifo-Book";
+  src: url("/static/fonts/Aktifo-Book.woff") format("woff"), url("/static/fonts/Aktifo-Book.ttf") format("truetype");
+}
