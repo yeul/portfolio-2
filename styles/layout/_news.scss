@@ -1,0 +1,27 @@
+.news-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.news-stories {
+  height: fit-content;
+  margin-top: 50px;
+  .news-img-1 {
+    max-width: 98%;
+  }
+  .news-img-2 {
+    max-width: 100%;
+  }
+  .news-img-3 {
+    max-width: 98%;
+  }
+  .news-img-4 {
+    max-width: 100%;
+  }
+  .news-story-title {
+    text-align: center;
+    font-size: 18px;
+  }
+}

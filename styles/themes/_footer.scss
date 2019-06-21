@@ -1,0 +1,19 @@
+@import "./colors.scss";
+@import "../base/typography";
+
+.footer-row {
+  border-top: 1px solid $footer-logo;
+  .footer-logo {
+    color: $footer-logo;
+    font-family: "Aktifo-Book";
+    font-size: 40px;
+  }
+}
+
+.footer-nav,
+.address-info,
+.footer-social-media,
+.footer-phone-email {
+  color: $dark-text;
+  font-size: 14px;
+}

@@ -2,12 +2,16 @@
 @import "./layout/grid";
 @import "./layout/landing";
 @import "./layout/about-us";
+@import "./layout/news";
+@import "./layout/footer";
 
 //Theme styles import
 @import "./themes/default";
+@import "./themes/colors.scss";
 @import "./themes/landing";
 @import "./themes/about-us";
-@import "./themes/colors.scss";
+@import "./themes/news";
+@import "./themes/footer";
 
 //Base rules import
 @import "./base/typography";

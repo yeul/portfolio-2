@@ -1,0 +1,21 @@
+@import "./themes/colors.scss";
+
+.news-header-title,
+.news-header-subtitle,
+.news-story-title {
+  color: $dark-text;
+}
+
+.news-header-title {
+  font-size: 30px;
+}
+
+.news-img-1,
+.news-img-2,
+.news-img-3,
+.news-img-4 {
+  border-radius: 8px;
+}
+
+.news-story-title {
+}
