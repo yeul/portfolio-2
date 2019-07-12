@@ -35,11 +35,7 @@ class App extends React.Component {
             </div>
             <div className='about-us-right col-lg-9 col-sm-12'>
               <div className='about-us-text'>SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.</div>
-              <Link href='/learn-more'>
-                <a>
-                  <Button btnLabel='Learn More →' />
-                </a>
-              </Link>
+              <Button btnLabel='Learn More →' />
             </div>
           </div>
         </div>
