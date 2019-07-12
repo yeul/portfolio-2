@@ -1,13 +1,10 @@
 h1 {
-  padding-left: 100px;
   border-bottom: 1px solid;
   margin-bottom: 50px;
 }
 
 .about-page-container {
   height: 100%;
-  padding-left: 300px;
-  padding-right: 300px;
   .about-page-row {
     margin-top: 80px;
     .about-page-intro {
@@ -48,11 +45,9 @@ h1 {
   }
   .process-row {
     margin-top: 80px;
+    display: flex;
     .process-col {
-      padding-left: 100px;
-      // display: flex;
-      // flex-direction: row;
-      // justify-content: center;
+      // padding-left: 100px;
     }
   }
 }

@@ -17,7 +17,7 @@ class App extends React.Component {
             <Hamburger />
           </div>
         </div>
-        <div className='landing-section container-fluid'>
+        <div className='landing-section container'>
           <div className='row no-gutters'>
             <div className='landing-left col-lg-6 col-md-6 col-sm'>
               <div className='landing-welcome-1'>Sourst from us to you.</div>
