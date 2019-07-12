@@ -1,5 +1,14 @@
 @import "./colors.scss";
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 .logo,
 .landing-welcome-1,
 .landing-welcome {
@@ -23,5 +32,11 @@
 
   .landing-welcome {
     font-size: 35px;
+  }
+}
+
+.landing-right {
+  .building-website-img {
+    animation: float 3s infinite alternate;
   }
 }

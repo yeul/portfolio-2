@@ -1,0 +1,27 @@
+@import "../themes/colors.scss";
+
+.bm-menu-wrap {
+  width: 500px;
+}
+
+.bm-menu {
+  background-color: $accent;
+  font-size: 50px;
+}
+
+.bm-item-list {
+  .bm-item {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    &:hover {
+      color: $hover;
+      transition: 0.3s ease-in;
+      text-decoration: underline;
+    }
+  }
+}
+
+.bm-overlay {
+  opacity: 0;
+}
