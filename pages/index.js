@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
+import Link from "next/link";
 
 import Button from "../components/Button";
+import Hamburger from "../components/Hamburger";
 import main from "../styles/main.scss";
 
 class App extends React.Component {
@@ -12,6 +14,7 @@ class App extends React.Component {
             <div className='company-logo col-lg-12'>
               <div className='logo'>sourst</div>
             </div>
+            <Hamburger />
           </div>
         </div>
         <div className='landing-section container-fluid'>
@@ -21,7 +24,7 @@ class App extends React.Component {
               <div className='landing-welcome'>SOURST - Building your dreams so you can get going.</div>
             </div>
             <div className='landing-right col-lg-6 col-md-6 col-sm'>
-              <img className='building-website-img' src='../static/images/developing_code(blue).svg' />
+              <img className='building-website-img' src='../static/images/developing_code.svg' />
             </div>
           </div>
         </div>
@@ -32,7 +35,11 @@ class App extends React.Component {
             </div>
             <div className='about-us-right col-lg-9 col-sm-12'>
               <div className='about-us-text'>SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.</div>
-              <Button btnLabel='Learn More →' />
+              <Link href='/learn-more'>
+                <a>
+                  <Button btnLabel='Learn More →' />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
