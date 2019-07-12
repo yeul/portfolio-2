@@ -31,9 +31,7 @@ class App extends React.Component {
               <div className='about-us-title'>Who We Are</div>
             </div>
             <div className='about-us-right col-lg-9 col-sm-12'>
-              <div className='about-us-text'>
-                SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.
-              </div>
+              <div className='about-us-text'>SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.</div>
               <Button btnLabel='Learn More →' />
             </div>
           </div>
@@ -98,13 +96,13 @@ class App extends React.Component {
             <div className='footer-social-media col-lg-7'>
               <ul>
                 <li>
-                  <i class='fab fa-twitter' />
+                  <i className='fab fa-twitter' />
                 </li>
                 <li>
-                  <i class='fab fa-facebook-f' />
+                  <i className='fab fa-facebook-f' />
                 </li>
                 <li>
-                  <i class='fab fa-linkedin-in' />
+                  <i className='fab fa-linkedin-in' />
                 </li>
               </ul>
             </div>

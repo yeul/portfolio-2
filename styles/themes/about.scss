@@ -1,0 +1,22 @@
+@import "./themes/colors.scss";
+@import "../base/typography";
+
+.about-page-container {
+  background-color: $background;
+  font-family: "Aktifo-Book";
+  color: $dark-text;
+  font-size: 25px;
+
+  .sourst-bold,
+  .our-numbers-title,
+  .process-header {
+    font-weight: 700;
+  }
+  .sourst-bold {
+    color: $accent;
+  }
+  .our-numbers-title {
+  }
+  .process-header {
+  }
+}

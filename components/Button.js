@@ -1,11 +1,16 @@
 import React, { Fragment } from "react";
+import Link from "next/link";
 
 const Button = props => {
   return (
     <Fragment>
-      <button className='button' type='button'>
-        <span className='button-label'>{props.btnLabel}</span>
-      </button>
+      <Link href='/about'>
+        <a>
+          <button className='button' type='button'>
+            <span className='button-label'>{props.btnLabel}</span>
+          </button>
+        </a>
+      </Link>
     </Fragment>
   );
 };

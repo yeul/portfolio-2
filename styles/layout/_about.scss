@@ -1,0 +1,58 @@
+h1 {
+  padding-left: 100px;
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
+}
+
+.about-page-container {
+  height: 100%;
+  padding-left: 300px;
+  padding-right: 300px;
+  .about-page-row {
+    margin-top: 80px;
+    .about-page-intro {
+      display: flex;
+      justify-content: center;
+      height: 30vh;
+      .about-page-text {
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    }
+  }
+  .our-numbers-title,
+  .our-numbers-subtitle {
+    display: flex;
+    justify-content: center;
+  }
+  .number-stats-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .stat {
+      list-style: none;
+      margin-right: 50px;
+      padding: 50px;
+      border: 1px solid;
+      max-width: 350px;
+      max-height: 350px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  .how-we-work-header {
+    margin-top: 200px;
+  }
+  .process-row {
+    margin-top: 80px;
+    .process-col {
+      padding-left: 100px;
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: center;
+    }
+  }
+}
