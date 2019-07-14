@@ -97,7 +97,33 @@ class About extends React.Component {
             <div className='we-are-row row'>
               <div className='we-are-col col-lg-12'>
                 <h1 className='we-are-header'>We Are</h1>
-                <div>Designers, Illustrators</div>
+              </div>
+              <div className='career-col col-lg-4'>
+                <ul className='careers-list'>
+                  <li>Business analysts</li>
+                  <li>Cloud architects</li>
+                  <li>Community managers</li>
+                  <li>Database architects</li>
+                  <li>DevOps</li>
+                </ul>
+              </div>
+              <div className='career-col col-lg-4'>
+                <ul className='careers-list'>
+                  <li>Front-end developers</li>
+                  <li>Illustrators</li>
+                  <li> Motion designers</li>
+                  <li>Photographers</li>
+                  <li> PR & Marketing </li>
+                </ul>
+              </div>
+              <div className='career-col col-lg-4'>
+                <ul className='careers-list'>
+                  <li>Product managers</li>
+                  <li>QA</li>
+                  <li> SEO/SEM specialists</li>
+                  <li>Support engineers</li>
+                  <li>UX/UI designers</li>
+                </ul>
               </div>
             </div>
           </div>
