@@ -3,42 +3,57 @@ h1 {
   margin-bottom: 50px;
 }
 
-.about-page-container {
+.main-page-container {
   .about-page-row {
     margin-top: 80px;
     .about-page-intro {
       display: flex;
       justify-content: center;
-      height: 30vh;
+      .about-page-text {
+        height: 100%;
+        font-size: 25px;
+      }
     }
   }
-  .our-numbers-title,
-  .our-numbers-subtitle {
-    display: flex;
-    justify-content: center;
-  }
-  .number-stats-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    .stat {
-      list-style: none;
-      margin-right: 50px;
-      padding: 50px;
-      max-width: 350px;
-      max-height: 350px;
+  .our-numbers-container {
+    margin-top: 80px;
+    height: 40vh;
+    .stat-col {
+      height: 300px;
       display: flex;
-      flex-direction: column;
-      text-align: center;
+      justify-content: center;
+
+      .stat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 70%;
+      }
     }
+    // .number-stats-list {
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: center;
+    //   align-items: center;
+    //   margin-top: 50px;
+    //   .stat {
+    //     list-style: none;
+    //     margin-right: 50px;
+    //     padding: 50px;
+    //     max-width: 350px;
+    //     max-height: 350px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     text-align: center;
+    //   }
   }
 }
 
 .how-we-work-container {
   .how-we-work-header {
-    margin-top: 200px;
+    margin-top: 150px;
   }
   .process-row {
     margin-top: 80px;
@@ -55,4 +70,10 @@ h1 {
 .about-page-container,
 .how-we-work-container {
   max-width: 1300px;
+}
+
+.our-numbers-title,
+.our-numbers-subtitle {
+  display: flex;
+  justify-content: center;
 }

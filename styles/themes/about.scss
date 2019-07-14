@@ -1,7 +1,7 @@
 @import "./themes/colors.scss";
 @import "../base/typography";
 
-.about-page-container {
+.main-page-container {
   background-color: $background;
   font-family: "Aktifo-Book";
   color: $dark-text;
@@ -15,7 +15,10 @@
   .sourst-bold {
     color: $accent;
   }
-  .our-numbers-title {
+
+  .our-numbers-container {
+    background-color: $hover;
+    border-radius: 6px;
   }
 
   .stat {
