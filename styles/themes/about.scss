@@ -6,12 +6,6 @@
   font-family: "Aktifo-Book";
   color: $dark-text;
 
-  .sourst-bold,
-  .our-numbers-title,
-  .process-header {
-    font-weight: 700;
-    font-size: 25px;
-  }
   .sourst-bold {
     color: $accent;
   }
@@ -24,11 +18,20 @@
   .stat {
     border: 1px solid $footer-logo;
     border-radius: 5px;
+    .stat-text {
+      text-align: center;
+    }
   }
 
-  .process-header {
-  }
   .steps {
     font-weight: 700;
   }
+}
+
+.sourst-bold,
+.our-numbers-title,
+.process-header,
+.stat-number {
+  font-weight: 700;
+  font-size: 25px;
 }

@@ -29,13 +29,13 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <div className='about-us-section container-fluid'>
-          <div className='about-us-wrapper row no-gutters'>
-            <div className='about-us-left col-lg-3 col-sm-12'>
-              <div className='about-us-title'>Who We Are</div>
+        <div className='learn-more-section container-fluid'>
+          <div className='learn-more-wrapper row no-gutters'>
+            <div className='learn-more-left col-lg-3 col-sm-12'>
+              <div className='learn-more-title'>Who We Are</div>
             </div>
-            <div className='about-us-right col-lg-9 col-sm-12'>
-              <div className='about-us-text'>SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.</div>
+            <div className='learn-more-right col-lg-9 col-sm-12'>
+              <div className='learn-more-text'>SOURST is a goal-oriented company focused on bringing your websites to life. We do the heavy lifting so you don't have to.</div>
               <Button btnLabel='Learn More →' />
             </div>
           </div>

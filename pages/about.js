@@ -27,28 +27,31 @@ class About extends React.Component {
             <div className='our-numbers-header-row row no-gutters'>
               <div className='our-numbers-header-col col-lg-12'>
                 <div className='our-numbers-title'>Our numbers</div>
-                <div className='our-numbers-subtitle'>at a glance</div>
+                <div className='our-numbers-subtitle'>At a glance</div>
               </div>
             </div>
             <div className='stats-row row'>
-              <div className='stat-col col-lg-4'>
+              <div className='stat-col col-lg-3'>
                 <div className='stat'>
-                  <div>25</div>
+                  <div className='stat-number'>25</div>
                   <div>employees</div>
                 </div>
               </div>
-              <div className='stat-col col-lg-4'>
+              <div className='stat-col col-lg-3'>
                 <div className='stat'>
-                  <div>25</div>
-                  <div>employees</div>
+                  <div className='stat-number'>20 +</div>
+                  <div>customers</div>
                 </div>
               </div>
-              <div className='stat-col col-lg-4'>
+              <div className='stat-col col-lg-3'>
                 <div className='stat'>
-                  <div>25</div>
-                  <div>employees</div>
+                  <div className='stat-number'>500 +</div>
+                  <div className='stat-text'>thousand dollars in annual revenue</div>
                 </div>
               </div>
+            </div>
+            <div className='img-container'>
+              <img src='../static/images/business_svg.svg' className='business-svg' />
             </div>
           </div>
           <div className='how-we-work-container container'>
@@ -106,19 +109,3 @@ class About extends React.Component {
 }
 
 export default About;
-
-{
-  /* <ul className='number-stats-list'>
-  <li className='stat'>
-    <div>25</div>
-    <div>employees</div>
-  </li>
-  <li className='stat'>
-    <div>20+</div>
-    <div> customers</div>
-  </li>
-  <li className='stat'>
-    <span>500+</span> thousand dollars in annual revenue
-                  </li>
-</ul> */
-}

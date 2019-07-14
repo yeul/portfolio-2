@@ -1,19 +1,19 @@
 //Layout styles import
 @import "./layout/grid";
 @import "./layout/landing";
-@import "./layout/about-us";
+@import "./layout/learn_more";
 @import "./layout/news";
 @import "./layout/about";
 @import "./layout/footer";
 
 //Theme styles import
-@import "./themes/default";
+@import "./themes/default.scss";
 @import "./themes/colors.scss";
-@import "./themes/landing";
-@import "./themes/about-us";
-@import "./themes/news";
+@import "./themes/landing.scss";
+@import "./themes/learn-more.scss";
+@import "./themes/news.scss";
 @import "./themes/about.scss";
-@import "./themes/footer";
+@import "./themes/footer.scss";
 
 //Base rules import
 @import "./base/typography";
