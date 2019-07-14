@@ -96,7 +96,7 @@ class About extends React.Component {
           <div className='we-are-container container'>
             <div className='we-are-row row'>
               <div className='we-are-col col-lg-12'>
-                <h1>We Are</h1>
+                <h1 className='we-are-header'>We Are</h1>
                 <div>Designers, Illustrators</div>
               </div>
             </div>

@@ -1,3 +1,5 @@
+@import "../base/media-queries.scss";
+
 h1 {
   border-bottom: 1px solid;
   margin-bottom: 50px;
@@ -38,6 +40,11 @@ h1 {
           justify-content: center;
           align-items: center;
           width: 100%;
+          .stat-text {
+            @media #{$ie11} {
+              width: 80%;
+            }
+          }
         }
       }
     }
@@ -49,23 +56,33 @@ h1 {
     margin-top: 50px;
     .business-svg {
       max-width: 450px;
+      @media #{$sm-only} {
+        max-width: 100%;
+      }
     }
   }
 
   .how-we-work-container {
     .how-we-work-header {
-      margin-top: 150px;
+      margin-top: 80px;
     }
     .process-row {
-      margin-top: 80px;
+      margin-top: 50px;
       display: flex;
       flex-direction: row;
+      @media #{$sm-only} {
+        margin-top: 0px;
+      }
     }
     .process-col {
       .steps {
         margin-bottom: 20px;
       }
     }
+  }
+
+  .we-are-header {
+    margin-top: 50px;
   }
 }
 
@@ -78,4 +95,10 @@ h1 {
 .our-numbers-subtitle {
   display: flex;
   justify-content: center;
+}
+
+.steps-text {
+  @media #{$sm-only} {
+    margin-bottom: 30px;
+  }
 }
