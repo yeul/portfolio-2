@@ -1,6 +1,14 @@
 @import "./themes/colors.scss";
 @import "../base/typography";
 
+li {
+  transition: 0.5s ease-in-out;
+  &:hover {
+    color: $accent;
+    transition: 0.5s ease-in-out;
+  }
+}
+
 .main-page-container {
   background-color: $background;
   font-family: "Aktifo-Book";

@@ -60,9 +60,9 @@ class About extends React.Component {
               <div className='process-col col-lg-6 col-md-6 col-sm'>
                 <div className='steps step-1-header'>1 Conceptualize</div>
                 <div className='steps-text'>
-                  Beginning with a deeper understanding of the products and services our customers provide we discuss what the goals of the project are. What is the website setting
-                  out to achieve? Who is the audience? What message are we conveying? What kind of interactivity do we wish to provide? Taking time to answer these questions allows
-                  us to conceptualize a design that will satisfy all of these needs and more in order to propel brands forward.
+                  Beginning with a deeper understanding of the products and services our customers provide, we discuss what the goals of the project are. What is the website
+                  setting out to achieve? Who is the audience? What message are we conveying? What kind of interactivity do we wish to provide? Taking time to answer these
+                  questions allows us to conceptualize a design that will satisfy all of these needs and more in order to propel brands forward.
                 </div>
               </div>
               <div className='process-col col-lg-6 col-md-6 col-sm'>
