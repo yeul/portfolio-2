@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Button from "../components/Button";
 import PostLink from "../components/PostLink";
 import Footer from "../components/Footer";
-import main from "../styles/main.scss";
+import "../styles/main.scss";
 
 class App extends React.Component {
   render() {

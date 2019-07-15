@@ -4,7 +4,7 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import main from "../styles/main.scss";
+import "../styles/main.scss";
 
 class About extends React.Component {
   render() {
