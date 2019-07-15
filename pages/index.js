@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import Header from "../components/Header";
 import Button from "../components/Button";
+import PostLink from "../components/PostLink";
 import Footer from "../components/Footer";
 import main from "../styles/main.scss";
 
@@ -47,21 +48,21 @@ class App extends React.Component {
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-7'>
               <img className='news-img-1' src='../static/images/unsplash-2.jpg' />
-              <div className='news-story-title'>Getting Settled - Saying 'hello!' to our new office!</div>
+              <PostLink title={`Getting Settled - Saying \'hello!\' to our new office!`} />
             </div>
             <div className='news-stories news-right col-lg-5'>
               <img className='news-img-2' src='../static/images/unsplash-1.jpg' />
-              <div className='news-story-title'>Our Design Process - How we turn a concept into a reality</div>
+              <PostLink title='Our Design Process - How we turn a concept into reality' />
             </div>
           </div>
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-5'>
               <img className='news-img-3' src='../static/images/unsplash-3.jpg' />
-              <div className='news-story-title'>Organizing code for scalability</div>
+              <PostLink title='Organizing code for scalability' />
             </div>
             <div className='news-stories news-right col-lg-7'>
               <img className='news-img-4' src='../static/images/unsplash-4.jpg' />
-              <div className='news-story-title'>SOURST turns 1! </div>
+              <PostLink title='SOURST turns 1!' />
             </div>
           </div>
         </div>
