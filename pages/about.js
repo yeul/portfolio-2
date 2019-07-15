@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import main from "../styles/main.scss";
@@ -9,6 +10,7 @@ class About extends React.Component {
   render() {
     return (
       <Fragment>
+        <Header />
         <div className='main-page-container container'>
           <div className='about-page-row row no-gutters'>
             <div className='about-page-col col-lg-12'>
@@ -96,9 +98,9 @@ class About extends React.Component {
           <div className='we-are-container container'>
             <div className='we-are-row row'>
               <div className='we-are-col col-lg-12'>
-                <h1 className='we-are-header'>We Are</h1>
+                <h1 className='we-are-header'>We Are...</h1>
               </div>
-              <div className='career-col col-lg-4'>
+              <div className='career-col col-lg-4 col-md-4 col-sm-6'>
                 <ul className='careers-list'>
                   <li>Business analysts</li>
                   <li>Cloud architects</li>
@@ -107,7 +109,7 @@ class About extends React.Component {
                   <li>DevOps</li>
                 </ul>
               </div>
-              <div className='career-col col-lg-4'>
+              <div className='career-col col-lg-4 col-md-4 col-sm-6'>
                 <ul className='careers-list'>
                   <li>Front-end developers</li>
                   <li>Illustrators</li>
@@ -116,7 +118,7 @@ class About extends React.Component {
                   <li> PR & Marketing </li>
                 </ul>
               </div>
-              <div className='career-col col-lg-4'>
+              <div className='career-col col-lg-4 col-md-4 col-sm-6'>
                 <ul className='careers-list'>
                   <li>Product managers</li>
                   <li>QA</li>
@@ -124,6 +126,11 @@ class About extends React.Component {
                   <li>Support engineers</li>
                   <li>UX/UI designers</li>
                 </ul>
+              </div>
+            </div>
+            <div className='end-mark-row row'>
+              <div className='end-mark-col col-lg-12'>
+                <div className='end-mark-symbol'>❤</div>
               </div>
             </div>
           </div>

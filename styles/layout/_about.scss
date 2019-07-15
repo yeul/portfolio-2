@@ -87,7 +87,18 @@ h1 {
   .career-col {
     .careers-list {
       list-style: none;
+      @media #{$sm-only} {
+        padding: 0px;
+        width: 55vw;
+        margin: 16px auto;
+      }
     }
+  }
+
+  .end-mark-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
   }
 }
 

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 
+import Header from "../components/Header";
 import Button from "../components/Button";
-import Hamburger from "../components/Hamburger";
 import Footer from "../components/Footer";
 import main from "../styles/main.scss";
 
@@ -10,14 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className='logo-section container-fluid'>
-          <div className='row no-gutters'>
-            <div className='company-logo col-lg-12'>
-              <div className='logo'>sourst</div>
-            </div>
-            <Hamburger />
-          </div>
-        </div>
+        <Header />
         <div className='landing-section container'>
           <div className='row no-gutters'>
             <div className='landing-left col-lg-6 col-md-6 col-sm'>
