@@ -1,17 +1,16 @@
 .post-image-container {
-  background-color: rgb(238, 5, 83);
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  @media #{$md-only} {
-    height: 55vh;
+  @media #{$sm-only} {
+    height: 80vh;
   }
 }
 
 .post-content-container {
-  // margin-top: -80px;
+  margin-top: -88px;
   padding: 80px;
   background-color: white;
   max-width: 940px;
@@ -25,7 +24,7 @@
   }
 }
 
-.post-subtitle,
-.post-text {
-  text-align: left;
-}
+// .post-subtitle,
+// .post-text {
+//   text-align: left;
+// }

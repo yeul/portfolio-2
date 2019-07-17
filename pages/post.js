@@ -1,23 +1,28 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
+import PostLink from "../components/PostLink";
 import Footer from "../components/Footer";
 
 import "../styles/main.scss";
 
 const Post = () => {
+  const router = useRouter();
   return (
     <Fragment>
       <div className='post-image-container container-fluid'>
         <div className='row no-gutters'>
+          <h1 className='post-title'>{router.query.title}</h1>
           <div className='background-image' />
-          {/* <img src='../static/images/unsplash-2.jpg' /> */}
+
+          {/* <img className='post-hero-image' src='../static/images/unsplash-2.jpg' /> */}
         </div>
       </div>
       <div className='post-content-container container'>
         <div className='post-row row no-gutters'>
           <div className='post-col col-lg-12'>
-            <div className='post-title'>News Story Title</div>
+            <div className='post-title'>{router.query.title}</div>
           </div>
         </div>
         <div className='post-row row no-gutters'>

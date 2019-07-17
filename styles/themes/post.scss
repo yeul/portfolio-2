@@ -1,0 +1,14 @@
+@import "../themes/colors.scss";
+
+.post-image-container {
+  background-color: $footer-logo;
+  .post-title {
+    color: $dark-text;
+    border-bottom: none;
+  }
+}
+
+.post-content-container {
+  background-color: $background;
+  color: $dark-text;
+}
