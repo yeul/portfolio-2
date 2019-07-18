@@ -9,14 +9,13 @@ import "../styles/main.scss";
 
 const Post = () => {
   const router = useRouter();
+  console.log(useRouter());
+  console.log(router.query);
   return (
     <Fragment>
-      <div className='post-image-container container-fluid'>
+      <div className='post-image-container container-fluid' style={{ backgroundImage: `url("${router.query.imgURL}")` }}>
         <div className='row no-gutters'>
           <h1 className='post-title'>{router.query.title}</h1>
-          <div className='background-image' />
-
-          {/* <img className='post-hero-image' src='../static/images/unsplash-2.jpg' /> */}
         </div>
       </div>
       <div className='post-content-container container'>

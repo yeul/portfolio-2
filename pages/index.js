@@ -48,21 +48,21 @@ class App extends React.Component {
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-7'>
               <img className='news-img-1' src='../static/images/unsplash-2.jpg' />
-              <PostLink title={`Getting Settled - Saying \'hello!\' to our new office!`} />
+              <PostLink title={`Getting Settled - Saying \'hello!\' to our new office!`} imgLink='../static/images/unsplash-2.jpg' />
             </div>
             <div className='news-stories news-right col-lg-5'>
               <img className='news-img-2' src='../static/images/unsplash-1.jpg' />
-              <PostLink title='Our Design Process - How we turn a concept into reality' />
+              <PostLink title='Our Design Process - How we turn a concept into reality' imgLink='../static/images/unsplash-1.jpg' />
             </div>
           </div>
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-5'>
               <img className='news-img-3' src='../static/images/unsplash-3.jpg' />
-              <PostLink title='Organizing code for scalability' />
+              <PostLink title='Organizing code for scalability' imgLink='../static/images/unsplash-3.jpg' />
             </div>
             <div className='news-stories news-right col-lg-7'>
               <img className='news-img-4' src='../static/images/unsplash-4.jpg' />
-              <PostLink title='SOURST turns 1!' />
+              <PostLink title='SOURST turns 1!' imgLink='../static/images/unsplash-4.jpg' />
             </div>
           </div>
         </div>
