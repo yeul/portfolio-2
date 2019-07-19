@@ -2,10 +2,12 @@
 
 .post-image-container {
   background-color: $footer-logo;
-  .post-title {
-    color: $dark-text;
-    border-bottom: none;
-  }
+}
+
+.post-title {
+  color: $dark-text;
+  border-bottom: none;
+  text-align: center;
 }
 
 .post-content-container {

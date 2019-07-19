@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import PostLink from "../components/PostLink";
+import PostContent from "../components/PostContent";
 import Footer from "../components/Footer";
 
 import "../styles/main.scss";
@@ -13,32 +14,33 @@ const Post = () => {
   console.log(router.query);
   return (
     <Fragment>
-      <div className='post-image-container container-fluid' style={{ backgroundImage: `url("${router.query.imgURL}")` }}>
-        <div className='row no-gutters'>
-          <h1 className='post-title'>{router.query.title}</h1>
-        </div>
-      </div>
+      <div className='post-image-container container-fluid' style={{ backgroundImage: `url("${router.query.imgURL}")` }} />
       <div className='post-content-container container'>
         <div className='post-row row no-gutters'>
           <div className='post-col col-lg-12'>
-            <div className='post-title'>{router.query.title}</div>
+            <h1 className='post-title'>{router.query.title}</h1>
           </div>
         </div>
         <div className='post-row row no-gutters'>
-          <div className='post-col col-lg-12'>
-            <div className='post-subtitle'>New Story Subtitle</div>
+          <div className='post-col col-lg-6 col-md-12'>
+            <div className='post-subtitle'>
+              <div className='author-image' />
+            </div>
+          </div>
+          <div className='post-col col-lg-6 col-md-12'>
+            <div className='author-name'>BY: Julia</div>
           </div>
         </div>
         <div className='post-row row no-gutters'>
           <div className='post-col col-lg-12'>
             <div className='post-text'>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat pretium nibh ipsum consequat
+              <PostContent
+                postText=' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat pretium nibh ipsum consequat
                 nisl. Convallis convallis tellus id interdum velit. Urna nec tincidunt praesent semper feugiat. Pharetra diam sit amet nisl suscipit adipiscing bibendum est
                 ultricies. Tincidunt ornare massa eget egestas purus viverra. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. At tellus at urna condimentum mattis.
                 Mi bibendum neque egestas congue. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Netus et malesuada fames ac turpis. Amet justo donec enim diam
-                vulputate. Adipiscing elit ut aliquam purus sit amet. Felis eget nunc lobortis mattis aliquam faucibus purus in massa.
-              </p>
+                vulputate. Adipiscing elit ut aliquam purus sit amet. Felis eget nunc lobortis mattis aliquam faucibus purus in massa.'
+              />
 
               <p>
                 Consectetur adipiscing elit pellentesque habitant morbi. Eu tincidunt tortor aliquam nulla facilisi cras. Nunc sed velit dignissim sodales. Eget nullam non nisi est
@@ -50,6 +52,10 @@ const Post = () => {
                 pellentesque pulvinar pellentesque habitant morbi. Ac tincidunt vitae semper quis. Senectus et netus et malesuada fames ac turpis egestas sed. Duis ultricies lacus
                 sed turpis tincidunt id aliquet.
               </p>
+
+              <pre>
+                <code>'Jello'</code>
+              </pre>
 
               <p>
                 Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Leo urna molestie at elementum eu
