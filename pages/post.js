@@ -23,7 +23,7 @@ const Post = () => {
         </div>
         <div className='post-row row no-gutters'>
           <div className='post-col col-lg-6 col-md-12'>
-            <div className='post-subtitle'>
+            <div className='post-info'>
               <div className='author-image' />
             </div>
           </div>

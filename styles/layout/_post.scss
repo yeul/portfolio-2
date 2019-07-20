@@ -1,3 +1,5 @@
+@import "../themes/colors.scss";
+
 .post-image-container {
   background-attachment: fixed;
   background-size: cover;
@@ -12,7 +14,6 @@
 .post-content-container {
   margin-top: -88px;
   padding: 80px;
-  background-color: white;
   max-width: 940px;
   @media #{$sm-only} {
     width: 100%;
@@ -30,18 +31,17 @@
       .author-name {
         margin-bottom: 22px;
       }
-      .post-subtitle {
+      .post-info {
         margin-bottom: 10px;
         .author-image {
+          background-image: url("/static/images/sourst-avatar.png");
           height: 50px;
           width: 50px;
           border-radius: 50%;
-          background-image: url("/static/images/sourst-avatar.png");
         }
       }
     }
     .intro-paragraph {
-      font-size: 25px;
       margin-bottom: 55px;
     }
     .text-break-col {
@@ -51,7 +51,7 @@
         height: 5px;
         width: 50px;
         margin-bottom: 55px;
-        background-color: red;
+        background-color: $accent;
       }
     }
 
