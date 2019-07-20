@@ -9,9 +9,6 @@ const PostLink = props => {
           <div className='news-story-title'>{props.title}</div>
         </a>
       </Link>
-      {/* <div className='background-image'>
-        <img className='post-hero-image' src={props.image} />
-      </div> */}
     </Fragment>
   );
 };
