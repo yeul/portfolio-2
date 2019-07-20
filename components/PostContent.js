@@ -9,8 +9,11 @@ const PostContent = () => {
           Convallis convallis tellus id interdum velit. Urna nec tincidunt praesent semper feugiat. Pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies.
           Tincidunt ornare massa eget egestas purus viverra.
         </p>
-        <div className='text-break' />
-
+        <div className='text-break-row row no-gutters'>
+          <div className='text-break-col col-lg-12'>
+            <div className='text-break' />
+          </div>
+        </div>
         <p className='content-paragraph'>
           Consectetur adipiscing elit pellentesque habitant morbi. Eu tincidunt tortor aliquam nulla facilisi cras. Nunc sed velit dignissim sodales. Eget nullam non nisi est sit.
           Quis varius quam quisque id. Ut lectus arcu bibendum at varius vel pharetra. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum. Neque aliquam

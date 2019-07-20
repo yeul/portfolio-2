@@ -28,7 +28,7 @@ const Post = () => {
             </div>
           </div>
           <div className='post-col col-lg-6 col-md-12'>
-            <div className='author-name'>BY: Julia</div>
+            <div className='author-name'>By: The Sourst Team</div>
           </div>
         </div>
         <div className='post-row row no-gutters'>

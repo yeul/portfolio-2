@@ -28,7 +28,7 @@
         margin-bottom: 20px;
       }
       .author-name {
-        margin-bottom: 20px;
+        margin-bottom: 22px;
       }
       .post-subtitle {
         margin-bottom: 10px;
@@ -36,26 +36,27 @@
           height: 50px;
           width: 50px;
           border-radius: 50%;
-          background-color: red;
+          background-image: url("/static/images/sourst-avatar.png");
         }
       }
     }
     .intro-paragraph {
       font-size: 25px;
-      margin-bottom: 100px;
+      margin-bottom: 55px;
     }
-    // .text-break {
-    //   height: 5px;
-    //   width: 20px;
-    //   background-color: red;
-    // }
+    .text-break-col {
+      display: flex;
+      justify-content: center;
+      .text-break {
+        height: 5px;
+        width: 50px;
+        margin-bottom: 55px;
+        background-color: red;
+      }
+    }
+
     .content-paragraph {
       margin-bottom: 50px;
     }
   }
 }
-
-// .post-subtitle,
-// .post-text {
-//   text-align: left;
-// }
