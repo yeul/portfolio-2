@@ -47,14 +47,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className='footer-phone-email col-lg-5'>
-        <div className='phone-and-email'>
-          (416) 555 0195
-          <br />
-          sourst@sourst.com
-        </div>
-      </div> */}
     </div>
   );
 };
