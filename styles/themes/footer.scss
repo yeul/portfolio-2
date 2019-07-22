@@ -22,3 +22,10 @@
   color: $dark-text;
   font-size: 14px;
 }
+
+.link-name {
+  color: $dark-text;
+  &:hover {
+    text-decoration: none;
+  }
+}

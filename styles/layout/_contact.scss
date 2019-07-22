@@ -1,0 +1,43 @@
+@import "../base/media-queries.scss";
+
+.contact-section {
+  margin-top: 50px;
+  max-width: 1440px;
+  margin-bottom: 150px;
+  .contact-row {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 150px;
+    @media #{$sm-only} {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 10px;
+    }
+    .contact-description-1 {
+      margin-bottom: 15px;
+    }
+  }
+  .contact-col-left,
+  .contact-col-right {
+    @media #{$sm-only} {
+      text-align: center;
+    }
+  }
+  .contact-col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media #{$sm-only} {
+      margin-top: 100px;
+    }
+    @media #{$md-only} {
+      margin-top: 50px;
+    }
+    .contact-info-title {
+      margin-bottom: 5px;
+    }
+    .contact-info-content {
+      margin-bottom: 10px;
+    }
+  }
+}
