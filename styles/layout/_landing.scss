@@ -1,29 +1,52 @@
+@import "../base/media-queries.scss";
+
+.logo-section {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  background-color: white;
+}
+
 .company-logo {
   height: 76px;
-  margin-top: 30px;
+  margin-top: 20px;
   .logo {
     width: fit-content;
     margin-left: 55px;
+    @media #{$sm-only} {
+      margin: 0 auto;
+    }
   }
 }
 
-.landing-left {
-  .landing-welcome-1,
-  .landing-welcome {
-    margin-left: 55px;
+.landing-section {
+  margin-top: 50px;
+  @media #{$sm-only} {
+    margin-top: 20px;
   }
-  .landing-welcome-1 {
-    margin-top: 100px;
-    margin-bottom: 10px;
+  .landing-left {
+    .landing-welcome-1,
+    .landing-welcome {
+      margin-left: 55px;
+    }
+    .landing-welcome-1 {
+      margin-top: 100px;
+      margin-bottom: 10px;
+      @media #{$sm-only} {
+        margin-top: 0px;
+      }
+    }
+    .landing-welcome {
+      width: 88%;
+    }
   }
-  .landing-welcome {
-    height: 140px;
-    width: 88%;
-  }
-}
 
-.landing-right {
-  .building-website-img {
-    height: 100%;
+  .landing-right {
+    .building-website-img {
+      height: 100%;
+    }
+    @media #{$sm-only} {
+      margin-top: 20px;
+    }
   }
 }

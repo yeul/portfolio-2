@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
+import Header from "../components/Header";
 import PostLink from "../components/PostLink";
 import PostContent from "../components/PostContent";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ const Post = () => {
   console.log(router.query);
   return (
     <Fragment>
+      <Header />
       <div className='post-image-container container-fluid' style={{ backgroundImage: `url("${router.query.imgURL}")` }} />
       <div className='post-content-container container'>
         <div className='post-row row no-gutters'>

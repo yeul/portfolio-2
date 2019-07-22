@@ -15,8 +15,15 @@
   color: $accent;
 }
 
+.company-logo {
+  a {
+    text-decoration: none;
+  }
+}
+
 .logo {
   font-family: "Aktifo-BlackOblique";
+  text-decoration: none;
   font-size: 40px;
 }
 

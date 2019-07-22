@@ -1,18 +1,23 @@
-@import "./colors.scss";
+@import "../themes/colors.scss";
 @import "../base/typography";
 
 .footer-logo-row {
   border-top: 1px solid $footer-logo;
-  .footer-logo {
-    color: $footer-logo;
-    font-family: "Aktifo-Book";
-    font-size: 40px;
+}
+.footer-logo {
+  height: 150px;
+  padding-top: 10px;
+  color: $footer-logo;
+  font-family: "Aktifo-Book";
+  font-size: 40px;
+  @media #{$sm-only} {
+    text-align: center;
   }
 }
 
 .footer-nav,
-.address-info,
 .footer-social-media,
+.address-info,
 .footer-phone-email {
   color: $dark-text;
   font-size: 14px;

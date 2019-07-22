@@ -7,7 +7,11 @@ const Header = () => {
       <div className='logo-section container-fluid'>
         <div className='row no-gutters'>
           <div className='company-logo col-lg-12'>
-            <div className='logo'>sourst</div>
+            <Link href='/'>
+              <a>
+                <div className='logo'>sourst</div>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

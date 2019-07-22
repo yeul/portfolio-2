@@ -14,11 +14,11 @@ class App extends React.Component {
         <Header />
         <div className='landing-section container'>
           <div className='row no-gutters'>
-            <div className='landing-left col-lg-6 col-md-6 col-sm'>
+            <div className='landing-left col-lg-6 col-md-6'>
               <div className='landing-welcome-1'>Sourst from us to you.</div>
               <div className='landing-welcome'>SOURST - Building your dreams so you can get going.</div>
             </div>
-            <div className='landing-right col-lg-6 col-md-6 col-sm'>
+            <div className='landing-right col-lg-6 col-md-6'>
               <img className='building-website-img' src='../static/images/developing_code.svg' />
             </div>
           </div>

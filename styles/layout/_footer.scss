@@ -6,13 +6,6 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .footer-logo {
-    height: 150px;
-    padding-top: 10px;
-    @media #{$sm-only} {
-      text-align: center;
-    }
-  }
 
   .footer-nav,
   .footer-social-media {
