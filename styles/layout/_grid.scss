@@ -1,14 +1,11 @@
 //Dimensions of each parent container/rows based on Bootstrap's grid system.
 
 .landing-section {
-  .row {
-    height: 100%;
-  }
 }
 
 .learn-more-section {
-  height: 400px;
   margin-top: 50px;
+  margin-bottom: 50px;
   .row {
     padding-left: 25px;
     padding-right: 25px;

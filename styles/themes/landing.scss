@@ -11,7 +11,7 @@
 
 .logo,
 .landing-welcome-1,
-.landing-welcome {
+.landing-welcome-2 {
   color: $accent;
 }
 
@@ -29,7 +29,7 @@
 
 .landing-left {
   .landing-welcome-1,
-  .landing-welcome {
+  .landing-welcome-2 {
     font-family: "Aktifo-Book";
   }
 
@@ -37,7 +37,7 @@
     font-size: 25px;
   }
 
-  .landing-welcome {
+  .landing-welcome-2 {
     font-size: 35px;
   }
 }

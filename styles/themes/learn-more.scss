@@ -7,4 +7,7 @@
   color: white;
   font-family: "Aktifo-Book";
   font-size: 20px;
+  @media #{$sm-only} {
+    border-radius: 0px;
+  }
 }

@@ -10,7 +10,7 @@
   color: $footer-logo;
   font-family: "Aktifo-Book";
   font-size: 40px;
-  @media #{$sm-only} {
+  @media #{$md-and-smaller} {
     text-align: center;
   }
 }

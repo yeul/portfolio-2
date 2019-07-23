@@ -13,7 +13,7 @@
   .logo {
     width: fit-content;
     margin-left: 55px;
-    @media #{$sm-only} {
+    @media #{$md-and-smaller} {
       margin: 0 auto;
     }
   }
@@ -21,7 +21,7 @@
 
 .landing-section {
   margin-top: 50px;
-  @media #{$sm-only} {
+  @media #{$md-and-smaller} {
     margin-top: 20px;
   }
   .landing-left {
@@ -33,11 +33,29 @@
       margin-top: 100px;
       margin-bottom: 10px;
       @media #{$sm-only} {
+        text-align: center;
+      }
+      @media #{$md-and-smaller} {
         margin-top: 0px;
+        margin-left: 0px;
+      }
+      @media #{$md-only} {
+        text-align: left;
+        margin-top: 50px;
       }
     }
-    .landing-welcome {
+    .landing-welcome-2 {
       width: 88%;
+      @media #{$sm-only} {
+        text-align: center;
+      }
+      @media #{$md-and-smaller} {
+        width: 100%;
+        text-align: center;
+      }
+      @media #{$md-only} {
+        text-align: left;
+      }
     }
   }
 
@@ -45,7 +63,7 @@
     .building-website-img {
       height: 100%;
     }
-    @media #{$sm-only} {
+    @media #{$md-and-smaller} {
       margin-top: 20px;
     }
   }

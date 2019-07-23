@@ -1,5 +1,10 @@
 .news-section {
   margin-bottom: 20px;
+  @media #{$sm-only} {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+  }
   .news-header {
     display: flex;
     flex: 1 1 auto;
@@ -11,6 +16,7 @@
   .news-stories {
     height: fit-content;
     margin-top: 50px;
+
     .news-img-1 {
       max-width: 98%;
     }
@@ -22,6 +28,13 @@
     }
     .news-img-4 {
       max-width: 100%;
+    }
+
+    @media #{$sm-only} {
+      .news-img-1,
+      .news-img-2 {
+        max-width: 100%;
+      }
     }
   }
 }
