@@ -19,7 +19,7 @@ class App extends React.Component {
               <div className='landing-welcome-2'>SOURST - Building your dreams so you can get going.</div>
             </div>
             <div className='landing-right col-lg-6 col-md-6'>
-              <img className='building-website-img' src='../static/images/developing_code.svg' />
+              <img className='building-website-img' src='../static/images/developing_code.svg' alt='' />
             </div>
           </div>
         </div>
@@ -47,21 +47,21 @@ class App extends React.Component {
           </div>
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-7'>
-              <img className='news-img-1' src='../static/images/unsplash-2.jpg' />
+              <img className='news-img-1' src='../static/images/unsplash-2.jpg' alt='A meeting room' />
               <PostLink title={`Getting Settled - Saying \'Hello!\' to Our New Office!`} imgLink='../static/images/unsplash-2.jpg' />
             </div>
             <div className='news-stories news-right col-lg-5'>
-              <img className='news-img-2' src='../static/images/unsplash-1.jpg' />
+              <img className='news-img-2' src='../static/images/unsplash-1.jpg' alt='Blueprints' />
               <PostLink title='Our Design Process - How We Turn a Concept into Reality' imgLink='../static/images/unsplash-1.jpg' />
             </div>
           </div>
           <div className='row no-gutters'>
             <div className='news-stories news-left col-lg-5'>
-              <img className='news-img-3' src='../static/images/unsplash-3.jpg' />
+              <img className='news-img-3' src='../static/images/unsplash-3.jpg' alt='Code sample' />
               <PostLink title='Organizing Code for Scalability' imgLink='../static/images/unsplash-3.jpg' />
             </div>
             <div className='news-stories news-right col-lg-7'>
-              <img className='news-img-4' src='../static/images/unsplash-4.jpg' />
+              <img className='news-img-4' src='../static/images/unsplash-4.jpg' alt='Staff meeting' />
               <PostLink title='SOURST Turns 1!' imgLink='../static/images/unsplash-4.jpg' />
             </div>
           </div>

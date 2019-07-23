@@ -53,11 +53,11 @@ class About extends React.Component {
               </div>
             </div>
             <div className='img-container'>
-              <img src='../static/images/business_svg.svg' className='business-svg' />
+              <img src='../static/images/business_svg.svg' className='business-svg' alt='' />
             </div>
           </div>
           <div className='how-we-work-container container'>
-            <h1 className='how-we-work-header'>How We Work</h1>
+            <h2 className='how-we-work-header'>How We Work</h2>
             <div className='process-row row'>
               <div className='process-col col-lg-6 col-md-6 col-sm'>
                 <div className='steps step-1-header'>1 Conceptualize</div>
@@ -98,7 +98,7 @@ class About extends React.Component {
           <div className='we-are-container container'>
             <div className='we-are-row row'>
               <div className='we-are-col col-lg-12'>
-                <h1 className='we-are-header'>We Are...</h1>
+                <h2 className='we-are-header'>We Are...</h2>
               </div>
               <div className='career-col col-lg-4 col-md-4 col-sm-6'>
                 <ul className='careers-list'>

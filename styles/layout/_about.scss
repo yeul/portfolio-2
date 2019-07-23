@@ -1,12 +1,6 @@
 @import "../base/media-queries.scss";
 
-h1 {
-  border-bottom: 1px solid;
-  margin-bottom: 50px;
-}
-
 .main-page-container {
-  // margin-bottom: 50px;
   .about-page-row {
     margin-top: 80px;
     .about-page-intro {
@@ -113,6 +107,13 @@ h1 {
 .about-page-container,
 .how-we-work-container {
   max-width: 1300px;
+}
+
+.about-header,
+.how-we-work-header,
+.we-are-header {
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
 }
 
 .our-numbers-title,

@@ -5,10 +5,8 @@ const Button = props => {
   return (
     <Fragment>
       <Link href='/about'>
-        <a>
-          <button className='button' type='button'>
-            <span className='button-label'>{props.btnLabel}</span>
-          </button>
+        <a className='button'>
+          <span className='button-label'>{props.btnLabel}</span>
         </a>
       </Link>
     </Fragment>
