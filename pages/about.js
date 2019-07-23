@@ -70,9 +70,9 @@ class About extends React.Component {
               <div className='process-col col-lg-6 col-md-6 col-sm'>
                 <div className='steps step-2-header'>2 Strategize</div>
                 <div className='steps-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  We assess your current position in the marketplace, gathering information from customers and stakeholders in the form of surveys and workshops. Using this
+                  information, we strategize the best way to achieve growth and profitability through your company's digital voice. One of our main goals is to help our clients
+                  discover more of themselves and share that with their customers through online communications.
                 </div>
               </div>
             </div>
@@ -80,17 +80,17 @@ class About extends React.Component {
               <div className='process-col col-lg-6 col-md-6 col-sm'>
                 <div className='steps step-3-header'>3 Design</div>
                 <div className='steps-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Form or function? You can have both! We understand that getting a message across is vital to converting the individuals who visit your website into customers.
+                  Simplicity is a crucial aspect of our creative process and great design has the ability to solve many problems. SOURST's design team take your brand identity,
+                  campaigns, and services into account in order to create a cohesive result. Plus, we think you're going to love how it looks too.
                 </div>
               </div>
               <div className='process-col col-lg-6 col-md-6 col-sm'>
                 <div className='steps step-4-header'>4 Launch & Scale</div>
                 <div className='steps-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  SOURST takes its clients to new heights in the digital space. By using our knowledge of you, we make sure your brands develop in other areas as well. We are
+                  mindful of your growth after launch and provide consistantly excellent service in the form of apps, photography, print, and (of course) websites. SOURST grows
+                  when our clients do, allowing us to provide the very best to the very best in their fields.
                 </div>
               </div>
             </div>
