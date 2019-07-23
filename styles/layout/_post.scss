@@ -1,13 +1,15 @@
 @import "../themes/colors.scss";
 
 .post-image-container {
-  background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
   height: 50vh;
   width: 100%;
   @media #{$sm-only} {
     height: 80vh;
+  }
+  @media #{$xl-only} {
+    background-attachment: fixed;
   }
 }
 

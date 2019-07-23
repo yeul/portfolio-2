@@ -56,8 +56,10 @@
     margin-top: 50px;
     .business-svg {
       max-width: 450px;
+      max-height: 368px;
       @media #{$sm-only} {
         max-width: 100%;
+        max-height: 260px;
       }
     }
   }
