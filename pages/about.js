@@ -89,7 +89,7 @@ class About extends React.Component {
                 <div className='steps step-4-header'>4 Launch & Scale</div>
                 <div className='steps-text'>
                   SOURST takes its clients to new heights in the digital space. By using our knowledge of you, we make sure your brands develop in other areas as well. We are
-                  mindful of your growth after launch and provide consistantly excellent service in the form of apps, photography, print, and (of course) websites. SOURST grows
+                  mindful of your growth after launch and provide consistently excellent service in the form of apps, photography, print, and (of course) websites. SOURST grows
                   when our clients do, allowing us to provide the very best to the very best in their fields.
                 </div>
               </div>
